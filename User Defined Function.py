@@ -34,3 +34,11 @@ def student(firstname, lastname):
 #keyword arguments
 student(firstname ='Geeks',lastname ='Practice')
 student(lastname = 'Practice',firstname ='Geeks')
+
+EXAMPLE OF FUNCTION WITH TWO ARGUMENTS
+
+def add_numbers(num1, num2):
+    sum = num1 + num2
+    print("sum: ",sum)
+    
+add_numbers(5,8)
