@@ -25,3 +25,12 @@ def myFun(x, y = 50):
   print("y: ", y)
  #Driver code
 myFun(10)
+
+EXAMPLE OF PYTHON KEYWORD ARGUMENTS
+
+def student(firstname, lastname):
+    print(firstname, lastname)
+    
+#keyword arguments
+student(firstname ='Geeks',lastname ='Practice')
+student(lastname = 'Practice',firstname ='Geeks')
