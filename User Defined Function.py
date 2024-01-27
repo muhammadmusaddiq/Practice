@@ -15,3 +15,13 @@ def evenOdd(x):
 #Driver code
 evenOdd(2)
 evenOdd(3)
+
+EXAMPLE OF NUMBERING
+
+#python program to demonstrate
+#default arguments
+def myFun(x, y = 50):
+  print("x: ", x)
+  print("y: ", y)
+ #Driver code
+myFun(10)
